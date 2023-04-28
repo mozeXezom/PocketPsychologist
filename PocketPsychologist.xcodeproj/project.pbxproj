@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2628BB89E0C4840ADD0B6E62 /* Pods_PocketPsychologist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65807DB553A6AD224C48909D /* Pods_PocketPsychologist.framework */; };
+		46BA3A96B3BD6A1F8604E78D /* Pods_PocketPsychologistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF895090087D3D8F45213C2F /* Pods_PocketPsychologistTests.framework */; };
+		A8298F3EFB98F45640DEAB76 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF28FC73AC57C9352B7971A2 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework */; };
+		DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A927329FBFE7000B76057 /* MainViewModel.swift */; };
 		DA9E52B829FAFC570023619B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52B729FAFC570023619B /* AppDelegate.swift */; };
-		DA9E52BC29FAFC570023619B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52BB29FAFC570023619B /* ViewController.swift */; };
+		DA9E52BC29FAFC570023619B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52BB29FAFC570023619B /* MainViewController.swift */; };
 		DA9E52BF29FAFC570023619B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9E52BD29FAFC570023619B /* Main.storyboard */; };
 		DA9E52C129FAFC590023619B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9E52C029FAFC590023619B /* Assets.xcassets */; };
 		DA9E52C429FAFC590023619B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9E52C229FAFC590023619B /* LaunchScreen.storyboard */; };
 		DA9E52CF29FAFC5A0023619B /* PocketPsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52CE29FAFC5A0023619B /* PocketPsychologistTests.swift */; };
 		DA9E52D929FAFC5A0023619B /* PocketPsychologistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52D829FAFC5A0023619B /* PocketPsychologistUITests.swift */; };
 		DA9E52DB29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52DA29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift */; };
+		DAEAF73B29FB0B6800DCD405 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06699DF4DDFFAC7632D0C03B /* Pods-PocketPsychologist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist.release.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist/Pods-PocketPsychologist.release.xcconfig"; sourceTree = "<group>"; };
+		0A87F4C8C8F2EF8928055BD5 /* Pods-PocketPsychologistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologistTests.release.xcconfig"; path = "Target Support Files/Pods-PocketPsychologistTests/Pods-PocketPsychologistTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C1EF8063A8045858F941A4B /* Pods-PocketPsychologist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist.debug.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist/Pods-PocketPsychologist.debug.xcconfig"; sourceTree = "<group>"; };
+		65807DB553A6AD224C48909D /* Pods_PocketPsychologist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketPsychologist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF28FC73AC57C9352B7971A2 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketPsychologist_PocketPsychologistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC84BFB21BCABB837E99BC8E /* Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist-PocketPsychologistUITests/Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEF88DC29EB8C3935039A6E6 /* Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist-PocketPsychologistUITests/Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA2A927329FBFE7000B76057 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DA9E52B429FAFC570023619B /* PocketPsychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketPsychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9E52B729FAFC570023619B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA9E52BB29FAFC570023619B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA9E52BB29FAFC570023619B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DA9E52BE29FAFC570023619B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA9E52C029FAFC590023619B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9E52C329FAFC590023619B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		DA9E52D429FAFC5A0023619B /* PocketPsychologistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketPsychologistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9E52D829FAFC5A0023619B /* PocketPsychologistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPsychologistUITests.swift; sourceTree = "<group>"; };
 		DA9E52DA29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPsychologistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		E8DBB0931DB86C66FCF4E5E8 /* Pods-PocketPsychologistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologistTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketPsychologistTests/Pods-PocketPsychologistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF895090087D3D8F45213C2F /* Pods_PocketPsychologistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketPsychologistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2628BB89E0C4840ADD0B6E62 /* Pods_PocketPsychologist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46BA3A96B3BD6A1F8604E78D /* Pods_PocketPsychologistTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8298F3EFB98F45640DEAB76 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3035BB2FC644FE1E0C2AF875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65807DB553A6AD224C48909D /* Pods_PocketPsychologist.framework */,
+				AF28FC73AC57C9352B7971A2 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework */,
+				FF895090087D3D8F45213C2F /* Pods_PocketPsychologistTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8246CB8F224825067C0980DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C1EF8063A8045858F941A4B /* Pods-PocketPsychologist.debug.xcconfig */,
+				06699DF4DDFFAC7632D0C03B /* Pods-PocketPsychologist.release.xcconfig */,
+				CC84BFB21BCABB837E99BC8E /* Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig */,
+				CEF88DC29EB8C3935039A6E6 /* Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig */,
+				E8DBB0931DB86C66FCF4E5E8 /* Pods-PocketPsychologistTests.debug.xcconfig */,
+				0A87F4C8C8F2EF8928055BD5 /* Pods-PocketPsychologistTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA2A927229FBFE5B00B76057 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DA2A927329FBFE7000B76057 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		DA9E52AB29FAFC570023619B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +132,8 @@
 				DA9E52CD29FAFC5A0023619B /* PocketPsychologistTests */,
 				DA9E52D729FAFC5A0023619B /* PocketPsychologistUITests */,
 				DA9E52B529FAFC570023619B /* Products */,
+				8246CB8F224825067C0980DA /* Pods */,
+				3035BB2FC644FE1E0C2AF875 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +151,11 @@
 			isa = PBXGroup;
 			children = (
 				DA9E52B729FAFC570023619B /* AppDelegate.swift */,
-				DA9E52BB29FAFC570023619B /* ViewController.swift */,
-				DA9E52BD29FAFC570023619B /* Main.storyboard */,
-				DA9E52C029FAFC590023619B /* Assets.xcassets */,
-				DA9E52C229FAFC590023619B /* LaunchScreen.storyboard */,
+				DA9E52E829FB09BB0023619B /* Models */,
+				DA9E52E929FB09CE0023619B /* View */,
+				DA9E52EA29FB09DE0023619B /* ViewModels */,
+				DA9E52EB29FB09E50023619B /* Services */,
+				DA9E52E729FB09AC0023619B /* Resources */,
 				DA9E52C529FAFC590023619B /* Info.plist */,
 			);
 			path = PocketPsychologist;
@@ -124,6 +178,63 @@
 			path = PocketPsychologistUITests;
 			sourceTree = "<group>";
 		};
+		DA9E52E729FB09AC0023619B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E52C029FAFC590023619B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA9E52E829FB09BB0023619B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA9E52E929FB09CE0023619B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAF73929FB0B2F00DCD405 /* Onboarding */,
+				DA9E52EC29FB0AB60023619B /* Main */,
+				DA9E52C229FAFC590023619B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA9E52EA29FB09DE0023619B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DA2A927229FBFE5B00B76057 /* Main */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DA9E52EB29FB09E50023619B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DA9E52EC29FB0AB60023619B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E52BD29FAFC570023619B /* Main.storyboard */,
+				DA9E52BB29FAFC570023619B /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DAEAF73929FB0B2F00DCD405 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9E52DE29FAFC5A0023619B /* Build configuration list for PBXNativeTarget "PocketPsychologist" */;
 			buildPhases = (
+				A6976F26A1B8150EEEDF5D12 /* [CP] Check Pods Manifest.lock */,
 				DA9E52B029FAFC570023619B /* Sources */,
 				DA9E52B129FAFC570023619B /* Frameworks */,
 				DA9E52B229FAFC570023619B /* Resources */,
@@ -148,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9E52E129FAFC5A0023619B /* Build configuration list for PBXNativeTarget "PocketPsychologistTests" */;
 			buildPhases = (
+				B43FB25D35671FE6E957EA81 /* [CP] Check Pods Manifest.lock */,
 				DA9E52C629FAFC5A0023619B /* Sources */,
 				DA9E52C729FAFC5A0023619B /* Frameworks */,
 				DA9E52C829FAFC5A0023619B /* Resources */,
@@ -166,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9E52E429FAFC5A0023619B /* Build configuration list for PBXNativeTarget "PocketPsychologistUITests" */;
 			buildPhases = (
+				E118C1A6F0656541F5D3F028 /* [CP] Check Pods Manifest.lock */,
 				DA9E52D029FAFC5A0023619B /* Sources */,
 				DA9E52D129FAFC5A0023619B /* Frameworks */,
 				DA9E52D229FAFC5A0023619B /* Resources */,
@@ -231,6 +345,7 @@
 				DA9E52C429FAFC590023619B /* LaunchScreen.storyboard in Resources */,
 				DA9E52C129FAFC590023619B /* Assets.xcassets in Resources */,
 				DA9E52BF29FAFC570023619B /* Main.storyboard in Resources */,
+				DAEAF73B29FB0B6800DCD405 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +365,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6976F26A1B8150EEEDF5D12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketPsychologist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B43FB25D35671FE6E957EA81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketPsychologistTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E118C1A6F0656541F5D3F028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketPsychologist-PocketPsychologistUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA9E52B029FAFC570023619B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9E52BC29FAFC570023619B /* ViewController.swift in Sources */,
+				DA9E52BC29FAFC570023619B /* MainViewController.swift in Sources */,
 				DA9E52B829FAFC570023619B /* AppDelegate.swift in Sources */,
+				DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +613,7 @@
 		};
 		DA9E52DF29FAFC5A0023619B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1EF8063A8045858F941A4B /* Pods-PocketPsychologist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +627,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +643,7 @@
 		};
 		DA9E52E029FAFC5A0023619B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06699DF4DDFFAC7632D0C03B /* Pods-PocketPsychologist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +657,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,6 +673,7 @@
 		};
 		DA9E52E229FAFC5A0023619B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DBB0931DB86C66FCF4E5E8 /* Pods-PocketPsychologistTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +694,7 @@
 		};
 		DA9E52E329FAFC5A0023619B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A87F4C8C8F2EF8928055BD5 /* Pods-PocketPsychologistTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +715,7 @@
 		};
 		DA9E52E529FAFC5A0023619B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC84BFB21BCABB837E99BC8E /* Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +734,7 @@
 		};
 		DA9E52E629FAFC5A0023619B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF88DC29EB8C3935039A6E6 /* Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
