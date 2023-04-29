@@ -5,4 +5,28 @@
 //  Created by mozeX on 28.04.2023.
 //
 
-import Foundation
+import UIKit
+
+protocol MainViewModelNavigation: AnyObject {
+    func showMenu()
+    func showMusicPlayer()
+}
+
+class MainViewModel {
+    
+    weak var navigation : MainViewModelNavigation!
+    
+    init(navigation: MainViewModelNavigation) {
+        self.navigation = navigation
+    }
+    
+    func showMenu() {
+        navigation.showMenu()
+    }
+    
+    func showMusicPlayer() {
+        navigation.showMusicPlayer()
+    }
+}
+
+

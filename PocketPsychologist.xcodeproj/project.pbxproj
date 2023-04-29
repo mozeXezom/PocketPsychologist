@@ -11,6 +11,22 @@
 		46BA3A96B3BD6A1F8604E78D /* Pods_PocketPsychologistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF895090087D3D8F45213C2F /* Pods_PocketPsychologistTests.framework */; };
 		A8298F3EFB98F45640DEAB76 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF28FC73AC57C9352B7971A2 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework */; };
 		DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A927329FBFE7000B76057 /* MainViewModel.swift */; };
+		DA68211229FDC11E00C13DB7 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68211029FDC11E00C13DB7 /* MusicViewController.swift */; };
+		DA68211329FDC11E00C13DB7 /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA68211129FDC11E00C13DB7 /* MusicViewController.xib */; };
+		DA68211729FDC16100C13DB7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68211529FDC16100C13DB7 /* MenuViewController.swift */; };
+		DA68211829FDC16100C13DB7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA68211629FDC16100C13DB7 /* MenuViewController.xib */; };
+		DA8982DC29FC756300DA2CF7 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982DA29FC756300DA2CF7 /* MainTableViewCell.swift */; };
+		DA8982DD29FC756300DA2CF7 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8982DB29FC756300DA2CF7 /* MainTableViewCell.xib */; };
+		DA8982E029FC766400DA2CF7 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982DF29FC766400DA2CF7 /* Constans.swift */; };
+		DA8982E329FC799200DA2CF7 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982E229FC799200DA2CF7 /* CategoriesModel.swift */; };
+		DA8982E729FC7CD900DA2CF7 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982E529FC7CD900DA2CF7 /* CategoryViewController.swift */; };
+		DA8982E829FC7CD900DA2CF7 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8982E629FC7CD900DA2CF7 /* CategoryViewController.xib */; };
+		DA8982EB29FC83FD00DA2CF7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982EA29FC83FD00DA2CF7 /* AppCoordinator.swift */; };
+		DA8982EF29FC873900DA2CF7 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982EE29FC873900DA2CF7 /* MainCoordinator.swift */; };
+		DA8982F129FC930A00DA2CF7 /* NavigationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982F029FC930A00DA2CF7 /* NavigationAnimator.swift */; };
+		DA8982F329FC933100DA2CF7 /* TransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982F229FC933100DA2CF7 /* TransitioningDelegate.swift */; };
+		DA8982F529FC934B00DA2CF7 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982F429FC934B00DA2CF7 /* NavigationControllerDelegate.swift */; };
+		DA8982F729FC9AE200DA2CF7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8982F629FC9AE200DA2CF7 /* MainViewController.xib */; };
 		DA9E52B829FAFC570023619B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52B729FAFC570023619B /* AppDelegate.swift */; };
 		DA9E52BC29FAFC570023619B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52BB29FAFC570023619B /* MainViewController.swift */; };
 		DA9E52BF29FAFC570023619B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9E52BD29FAFC570023619B /* Main.storyboard */; };
@@ -19,6 +35,7 @@
 		DA9E52CF29FAFC5A0023619B /* PocketPsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52CE29FAFC5A0023619B /* PocketPsychologistTests.swift */; };
 		DA9E52D929FAFC5A0023619B /* PocketPsychologistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52D829FAFC5A0023619B /* PocketPsychologistUITests.swift */; };
 		DA9E52DB29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52DA29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift */; };
+		DAB2FD7D29FDA4D400265277 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2FD7C29FDA4D400265277 /* Coordinator.swift */; };
 		DAEAF73B29FB0B6800DCD405 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +65,22 @@
 		CC84BFB21BCABB837E99BC8E /* Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist-PocketPsychologistUITests/Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEF88DC29EB8C3935039A6E6 /* Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist-PocketPsychologistUITests/Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DA2A927329FBFE7000B76057 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DA68211029FDC11E00C13DB7 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		DA68211129FDC11E00C13DB7 /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
+		DA68211529FDC16100C13DB7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DA68211629FDC16100C13DB7 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		DA8982DA29FC756300DA2CF7 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		DA8982DB29FC756300DA2CF7 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		DA8982DF29FC766400DA2CF7 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		DA8982E229FC799200DA2CF7 /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		DA8982E529FC7CD900DA2CF7 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		DA8982E629FC7CD900DA2CF7 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		DA8982EA29FC83FD00DA2CF7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DA8982EE29FC873900DA2CF7 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		DA8982F029FC930A00DA2CF7 /* NavigationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAnimator.swift; sourceTree = "<group>"; };
+		DA8982F229FC933100DA2CF7 /* TransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitioningDelegate.swift; sourceTree = "<group>"; };
+		DA8982F429FC934B00DA2CF7 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		DA8982F629FC9AE200DA2CF7 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		DA9E52B429FAFC570023619B /* PocketPsychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketPsychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9E52B729FAFC570023619B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA9E52BB29FAFC570023619B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +93,7 @@
 		DA9E52D429FAFC5A0023619B /* PocketPsychologistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketPsychologistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9E52D829FAFC5A0023619B /* PocketPsychologistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPsychologistUITests.swift; sourceTree = "<group>"; };
 		DA9E52DA29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPsychologistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAB2FD7C29FDA4D400265277 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		E8DBB0931DB86C66FCF4E5E8 /* Pods-PocketPsychologistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologistTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketPsychologistTests/Pods-PocketPsychologistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF895090087D3D8F45213C2F /* Pods_PocketPsychologistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketPsychologistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,16 +147,90 @@
 				E8DBB0931DB86C66FCF4E5E8 /* Pods-PocketPsychologistTests.debug.xcconfig */,
 				0A87F4C8C8F2EF8928055BD5 /* Pods-PocketPsychologistTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		DA2A927229FBFE5B00B76057 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DAB2FD7C29FDA4D400265277 /* Coordinator.swift */,
 				DA2A927329FBFE7000B76057 /* MainViewModel.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		DA68210F29FDC10900C13DB7 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DA68211029FDC11E00C13DB7 /* MusicViewController.swift */,
+				DA68211129FDC11E00C13DB7 /* MusicViewController.xib */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		DA68211429FDC14F00C13DB7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DA68211529FDC16100C13DB7 /* MenuViewController.swift */,
+				DA68211629FDC16100C13DB7 /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		DA8982D729FC753100DA2CF7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAF73929FB0B2F00DCD405 /* Onboarding */,
+				DA9E52EC29FB0AB60023619B /* Main */,
+				DA68210F29FDC10900C13DB7 /* Music */,
+				DA68211429FDC14F00C13DB7 /* Menu */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DA8982D829FC754600DA2CF7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DA8982D929FC754E00DA2CF7 /* Main */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DA8982D929FC754E00DA2CF7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DA8982DA29FC756300DA2CF7 /* MainTableViewCell.swift */,
+				DA8982DB29FC756300DA2CF7 /* MainTableViewCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DA8982DE29FC765200DA2CF7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA8982DF29FC766400DA2CF7 /* Constans.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DA8982E429FC7CA800DA2CF7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DA8982E529FC7CD900DA2CF7 /* CategoryViewController.swift */,
+				DA8982E629FC7CD900DA2CF7 /* CategoryViewController.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DA8982E929FC83EB00DA2CF7 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				DA8982EE29FC873900DA2CF7 /* MainCoordinator.swift */,
+				DA8982F029FC930A00DA2CF7 /* NavigationAnimator.swift */,
+				DA8982F229FC933100DA2CF7 /* TransitioningDelegate.swift */,
+				DA8982F429FC934B00DA2CF7 /* NavigationControllerDelegate.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		DA9E52AB29FAFC570023619B = {
@@ -150,13 +258,14 @@
 		DA9E52B629FAFC570023619B /* PocketPsychologist */ = {
 			isa = PBXGroup;
 			children = (
-				DA9E52B729FAFC570023619B /* AppDelegate.swift */,
+				DAB2FD7E29FDAB9400265277 /* Application */,
+				DA8982E929FC83EB00DA2CF7 /* Coordinators */,
 				DA9E52E829FB09BB0023619B /* Models */,
 				DA9E52E929FB09CE0023619B /* View */,
 				DA9E52EA29FB09DE0023619B /* ViewModels */,
 				DA9E52EB29FB09E50023619B /* Services */,
 				DA9E52E729FB09AC0023619B /* Resources */,
-				DA9E52C529FAFC590023619B /* Info.plist */,
+				DA8982DE29FC765200DA2CF7 /* Helpers */,
 			);
 			path = PocketPsychologist;
 			sourceTree = "<group>";
@@ -189,6 +298,7 @@
 		DA9E52E829FB09BB0023619B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DA8982E229FC799200DA2CF7 /* CategoriesModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,9 +306,9 @@
 		DA9E52E929FB09CE0023619B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DAEAF73929FB0B2F00DCD405 /* Onboarding */,
-				DA9E52EC29FB0AB60023619B /* Main */,
-				DA9E52C229FAFC590023619B /* LaunchScreen.storyboard */,
+				DA8982D829FC754600DA2CF7 /* Cells */,
+				DA8982D729FC753100DA2CF7 /* Controllers */,
+				DA8982E429FC7CA800DA2CF7 /* Category */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,8 +333,20 @@
 			children = (
 				DA9E52BD29FAFC570023619B /* Main.storyboard */,
 				DA9E52BB29FAFC570023619B /* MainViewController.swift */,
+				DA8982F629FC9AE200DA2CF7 /* MainViewController.xib */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		DAB2FD7E29FDAB9400265277 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DA9E52C229FAFC590023619B /* LaunchScreen.storyboard */,
+				DA9E52C529FAFC590023619B /* Info.plist */,
+				DA9E52B729FAFC570023619B /* AppDelegate.swift */,
+				DA8982EA29FC83FD00DA2CF7 /* AppCoordinator.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		DAEAF73929FB0B2F00DCD405 /* Onboarding */ = {
@@ -342,10 +464,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA68211329FDC11E00C13DB7 /* MusicViewController.xib in Resources */,
 				DA9E52C429FAFC590023619B /* LaunchScreen.storyboard in Resources */,
 				DA9E52C129FAFC590023619B /* Assets.xcassets in Resources */,
+				DA8982E829FC7CD900DA2CF7 /* CategoryViewController.xib in Resources */,
+				DA68211829FDC16100C13DB7 /* MenuViewController.xib in Resources */,
 				DA9E52BF29FAFC570023619B /* Main.storyboard in Resources */,
 				DAEAF73B29FB0B6800DCD405 /* Onboarding.storyboard in Resources */,
+				DA8982F729FC9AE200DA2CF7 /* MainViewController.xib in Resources */,
+				DA8982DD29FC756300DA2CF7 /* MainTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,8 +567,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9E52BC29FAFC570023619B /* MainViewController.swift in Sources */,
+				DA68211729FDC16100C13DB7 /* MenuViewController.swift in Sources */,
 				DA9E52B829FAFC570023619B /* AppDelegate.swift in Sources */,
+				DAB2FD7D29FDA4D400265277 /* Coordinator.swift in Sources */,
+				DA8982F329FC933100DA2CF7 /* TransitioningDelegate.swift in Sources */,
+				DA8982E729FC7CD900DA2CF7 /* CategoryViewController.swift in Sources */,
+				DA8982EF29FC873900DA2CF7 /* MainCoordinator.swift in Sources */,
+				DA8982E029FC766400DA2CF7 /* Constans.swift in Sources */,
+				DA8982EB29FC83FD00DA2CF7 /* AppCoordinator.swift in Sources */,
+				DA68211229FDC11E00C13DB7 /* MusicViewController.swift in Sources */,
+				DA8982F529FC934B00DA2CF7 /* NavigationControllerDelegate.swift in Sources */,
+				DA8982E329FC799200DA2CF7 /* CategoriesModel.swift in Sources */,
+				DA8982DC29FC756300DA2CF7 /* MainTableViewCell.swift in Sources */,
 				DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */,
+				DA8982F129FC930A00DA2CF7 /* NavigationAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,10 +760,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HLZY6MSJKT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PocketPsychologist/Info.plist;
+				INFOPLIST_FILE = PocketPsychologist/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -651,10 +789,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HLZY6MSJKT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PocketPsychologist/Info.plist;
+				INFOPLIST_FILE = PocketPsychologist/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
