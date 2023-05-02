@@ -10,11 +10,15 @@
 		2628BB89E0C4840ADD0B6E62 /* Pods_PocketPsychologist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65807DB553A6AD224C48909D /* Pods_PocketPsychologist.framework */; };
 		46BA3A96B3BD6A1F8604E78D /* Pods_PocketPsychologistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF895090087D3D8F45213C2F /* Pods_PocketPsychologistTests.framework */; };
 		A8298F3EFB98F45640DEAB76 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF28FC73AC57C9352B7971A2 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework */; };
+		DA0DD0582A01C0AB008F68DF /* CategoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD0572A01C0AB008F68DF /* CategoryCoordinator.swift */; };
+		DA0DD05B2A01C109008F68DF /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD05A2A01C109008F68DF /* CategoryViewModel.swift */; };
+		DA0DD05D2A01DA84008F68DF /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD05C2A01DA84008F68DF /* MenuCoordinator.swift */; };
 		DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A927329FBFE7000B76057 /* MainViewModel.swift */; };
 		DA68211229FDC11E00C13DB7 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68211029FDC11E00C13DB7 /* MusicViewController.swift */; };
 		DA68211329FDC11E00C13DB7 /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA68211129FDC11E00C13DB7 /* MusicViewController.xib */; };
 		DA68211729FDC16100C13DB7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68211529FDC16100C13DB7 /* MenuViewController.swift */; };
 		DA68211829FDC16100C13DB7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA68211629FDC16100C13DB7 /* MenuViewController.xib */; };
+		DA68211A29FDCCBC00C13DB7 /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68211929FDCCBC00C13DB7 /* PremiumViewController.swift */; };
 		DA8982DC29FC756300DA2CF7 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982DA29FC756300DA2CF7 /* MainTableViewCell.swift */; };
 		DA8982DD29FC756300DA2CF7 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8982DB29FC756300DA2CF7 /* MainTableViewCell.xib */; };
 		DA8982E029FC766400DA2CF7 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8982DF29FC766400DA2CF7 /* Constans.swift */; };
@@ -64,11 +68,15 @@
 		AF28FC73AC57C9352B7971A2 /* Pods_PocketPsychologist_PocketPsychologistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketPsychologist_PocketPsychologistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC84BFB21BCABB837E99BC8E /* Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist-PocketPsychologistUITests/Pods-PocketPsychologist-PocketPsychologistUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEF88DC29EB8C3935039A6E6 /* Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig"; path = "Target Support Files/Pods-PocketPsychologist-PocketPsychologistUITests/Pods-PocketPsychologist-PocketPsychologistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA0DD0572A01C0AB008F68DF /* CategoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCoordinator.swift; sourceTree = "<group>"; };
+		DA0DD05A2A01C109008F68DF /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		DA0DD05C2A01DA84008F68DF /* MenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
 		DA2A927329FBFE7000B76057 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DA68211029FDC11E00C13DB7 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		DA68211129FDC11E00C13DB7 /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
 		DA68211529FDC16100C13DB7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DA68211629FDC16100C13DB7 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		DA68211929FDCCBC00C13DB7 /* PremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
 		DA8982DA29FC756300DA2CF7 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		DA8982DB29FC756300DA2CF7 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		DA8982DF29FC766400DA2CF7 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
@@ -150,10 +158,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DA0DD0592A01C0E8008F68DF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DA0DD05A2A01C109008F68DF /* CategoryViewModel.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		DA2A927229FBFE5B00B76057 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				DAB2FD7C29FDA4D400265277 /* Coordinator.swift */,
 				DA2A927329FBFE7000B76057 /* MainViewModel.swift */,
 			);
 			path = Main;
@@ -208,7 +223,11 @@
 		DA8982DE29FC765200DA2CF7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DAB2FD7C29FDA4D400265277 /* Coordinator.swift */,
 				DA8982DF29FC766400DA2CF7 /* Constans.swift */,
+				DA8982F429FC934B00DA2CF7 /* NavigationControllerDelegate.swift */,
+				DA8982F229FC933100DA2CF7 /* TransitioningDelegate.swift */,
+				DA8982F029FC930A00DA2CF7 /* NavigationAnimator.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -226,9 +245,8 @@
 			isa = PBXGroup;
 			children = (
 				DA8982EE29FC873900DA2CF7 /* MainCoordinator.swift */,
-				DA8982F029FC930A00DA2CF7 /* NavigationAnimator.swift */,
-				DA8982F229FC933100DA2CF7 /* TransitioningDelegate.swift */,
-				DA8982F429FC934B00DA2CF7 /* NavigationControllerDelegate.swift */,
+				DA0DD0572A01C0AB008F68DF /* CategoryCoordinator.swift */,
+				DA0DD05C2A01DA84008F68DF /* MenuCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -317,6 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				DA2A927229FBFE5B00B76057 /* Main */,
+				DA0DD0592A01C0E8008F68DF /* Category */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -353,6 +372,7 @@
 			isa = PBXGroup;
 			children = (
 				DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */,
+				DA68211929FDCCBC00C13DB7 /* PremiumViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -570,16 +590,20 @@
 				DA68211729FDC16100C13DB7 /* MenuViewController.swift in Sources */,
 				DA9E52B829FAFC570023619B /* AppDelegate.swift in Sources */,
 				DAB2FD7D29FDA4D400265277 /* Coordinator.swift in Sources */,
+				DA68211A29FDCCBC00C13DB7 /* PremiumViewController.swift in Sources */,
 				DA8982F329FC933100DA2CF7 /* TransitioningDelegate.swift in Sources */,
 				DA8982E729FC7CD900DA2CF7 /* CategoryViewController.swift in Sources */,
 				DA8982EF29FC873900DA2CF7 /* MainCoordinator.swift in Sources */,
 				DA8982E029FC766400DA2CF7 /* Constans.swift in Sources */,
 				DA8982EB29FC83FD00DA2CF7 /* AppCoordinator.swift in Sources */,
 				DA68211229FDC11E00C13DB7 /* MusicViewController.swift in Sources */,
+				DA0DD0582A01C0AB008F68DF /* CategoryCoordinator.swift in Sources */,
 				DA8982F529FC934B00DA2CF7 /* NavigationControllerDelegate.swift in Sources */,
+				DA0DD05D2A01DA84008F68DF /* MenuCoordinator.swift in Sources */,
 				DA8982E329FC799200DA2CF7 /* CategoriesModel.swift in Sources */,
 				DA8982DC29FC756300DA2CF7 /* MainTableViewCell.swift in Sources */,
 				DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */,
+				DA0DD05B2A01C109008F68DF /* CategoryViewModel.swift in Sources */,
 				DA8982F129FC930A00DA2CF7 /* NavigationAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

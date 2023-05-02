@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class MainCoordinator : Coordinator {
+class MainCoordinator: Coordinator {
     
     weak var parentCoordinator: Coordinator?
     
@@ -44,6 +44,14 @@ extension MainCoordinator: MainViewModelNavigation {
     
     func showMusicPlayer() {
         print("Music")
+    }
+    
+    func showSelectedCategory() {
+        let categoryCoordinator = CategoryCoordinator(navigationController: navigationController)
+        categoryCoordinator.parentCoordinator = self
+        children.append(categoryCoordinator)
+        categoryCoordinator.start()
+        print("Category")
     }
     
     

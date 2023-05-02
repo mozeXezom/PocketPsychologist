@@ -10,6 +10,7 @@ import UIKit
 protocol MainViewModelNavigation: AnyObject {
     func showMenu()
     func showMusicPlayer()
+    func showSelectedCategory()
 }
 
 class MainViewModel {
@@ -26,6 +27,10 @@ class MainViewModel {
     
     func showMusicPlayer() {
         navigation.showMusicPlayer()
+    }
+    
+    func showSelectedCategory() {
+        navigation.showSelectedCategory()
     }
 }
 

@@ -7,6 +7,9 @@
 
 import Foundation
 
-struct Categories {
+struct Categories: Codable {
+    
+    let title: String
+    let quote: String
     
 }

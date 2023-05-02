@@ -28,6 +28,9 @@ class MainViewController: UIViewController {
         mainTableView.register(UINib(nibName: Cell.CellName.mainCellName, bundle: nil), forCellReuseIdentifier: Cell.CellId.mainCellId)
     }
 
+    @IBAction func menuPressed(_ sender: UIButton) {
+        viewModel.showMenu()
+    }
 }
 
 //MARK: Table View Methods
@@ -35,7 +38,7 @@ class MainViewController: UIViewController {
 extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 160
+        return 180
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -45,6 +48,10 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Cell.CellId.mainCellId, for: indexPath) as! MainTableViewCell
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel.showSelectedCategory()
     }
     
 }

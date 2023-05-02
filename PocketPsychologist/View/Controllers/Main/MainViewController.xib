@@ -28,17 +28,44 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PocketPsychologist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crp-FG-FSY">
-                            <rect key="frame" x="113" y="49.5" width="149" height="20.5"/>
+                            <rect key="frame" x="113" y="50" width="149" height="20"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXK-Vn-nXn">
+                            <rect key="frame" x="337" y="45" width="30" height="30"/>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="sXM-kp-iyP"/>
+                                <constraint firstAttribute="height" constant="30" id="th8-rB-BpJ"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJa-Jv-bqn">
+                            <rect key="frame" x="8" y="45" width="30" height="30"/>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="Yw5-br-0HN"/>
+                                <constraint firstAttribute="height" constant="30" id="cr7-4v-CwH"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <connections>
+                                <action selector="menuPressed:" destination="-1" eventType="touchUpInside" id="A3g-bz-O7O"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
+                        <constraint firstItem="dJa-Jv-bqn" firstAttribute="leading" secondItem="9ra-g6-Bu8" secondAttribute="leading" constant="8" id="6aI-nZ-YKf"/>
                         <constraint firstAttribute="height" constant="80" id="Iz5-XJ-0TQ"/>
                         <constraint firstItem="crp-FG-FSY" firstAttribute="centerX" secondItem="9ra-g6-Bu8" secondAttribute="centerX" id="KFZ-DT-g9M"/>
+                        <constraint firstAttribute="trailing" secondItem="iXK-Vn-nXn" secondAttribute="trailing" constant="8" id="LTy-td-RDe"/>
                         <constraint firstAttribute="bottom" secondItem="crp-FG-FSY" secondAttribute="bottom" constant="10" id="PDa-Wk-e6R"/>
+                        <constraint firstAttribute="bottom" secondItem="dJa-Jv-bqn" secondAttribute="bottom" constant="5" id="Tv9-zy-FP2"/>
+                        <constraint firstItem="iXK-Vn-nXn" firstAttribute="centerY" secondItem="crp-FG-FSY" secondAttribute="centerY" id="gGD-Cf-pqc"/>
+                        <constraint firstAttribute="bottom" secondItem="iXK-Vn-nXn" secondAttribute="bottom" constant="5" id="vTJ-a5-ocX"/>
+                        <constraint firstItem="dJa-Jv-bqn" firstAttribute="centerY" secondItem="crp-FG-FSY" secondAttribute="centerY" id="wTM-G4-6Ue"/>
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="k82-Q1-chu">
@@ -94,6 +121,9 @@
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
