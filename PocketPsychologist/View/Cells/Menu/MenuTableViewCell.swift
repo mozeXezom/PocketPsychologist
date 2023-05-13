@@ -1,26 +1,23 @@
 //
-//  MainTableViewCell.swift
+//  MenuTableViewCell.swift
 //  PocketPsychologist
 //
-//  Created by mozeX on 29.04.2023.
+//  Created by mozeX on 03.05.2023.
 //
 
 import UIKit
 
-class MainTableViewCell: UITableViewCell {
+class MenuTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
- 
+        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-    }
-    
-    func loadCellData(model: MainViewModel) {
-        
+        // Configure the view for the selected state
     }
     
 }

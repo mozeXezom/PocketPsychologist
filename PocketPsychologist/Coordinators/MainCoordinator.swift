@@ -39,6 +39,10 @@ class MainCoordinator: Coordinator {
 extension MainCoordinator: MainViewModelNavigation {
     
     func showMenu() {
+        let menuCoordinator = MenuCoordinator(navigationController: navigationController)
+        menuCoordinator.parentCoordinator = self
+        children.append(menuCoordinator)
+        menuCoordinator.start()
         print("Menu")
     }
     

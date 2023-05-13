@@ -16,6 +16,7 @@ protocol MainViewModelNavigation: AnyObject {
 class MainViewModel {
     
     weak var navigation : MainViewModelNavigation!
+    var categories = [CategoryInfo]()
     
     init(navigation: MainViewModelNavigation) {
         self.navigation = navigation

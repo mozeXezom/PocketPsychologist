@@ -13,3 +13,9 @@ struct Categories: Codable {
     let quote: String
     
 }
+
+struct CategoryInfo: Codable {
+    
+    let description: String
+    let category: [Categories]
+}

@@ -13,6 +13,9 @@
 		DA0DD0582A01C0AB008F68DF /* CategoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD0572A01C0AB008F68DF /* CategoryCoordinator.swift */; };
 		DA0DD05B2A01C109008F68DF /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD05A2A01C109008F68DF /* CategoryViewModel.swift */; };
 		DA0DD05D2A01DA84008F68DF /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD05C2A01DA84008F68DF /* MenuCoordinator.swift */; };
+		DA0DD0612A01DD9D008F68DF /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD05F2A01DD9D008F68DF /* MenuTableViewCell.swift */; };
+		DA0DD0622A01DD9D008F68DF /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0DD0602A01DD9D008F68DF /* MenuTableViewCell.xib */; };
+		DA0DD0652A01DE7D008F68DF /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0DD0642A01DE7D008F68DF /* MenuViewModel.swift */; };
 		DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A927329FBFE7000B76057 /* MainViewModel.swift */; };
 		DA68211229FDC11E00C13DB7 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68211029FDC11E00C13DB7 /* MusicViewController.swift */; };
 		DA68211329FDC11E00C13DB7 /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA68211129FDC11E00C13DB7 /* MusicViewController.xib */; };
@@ -39,6 +42,8 @@
 		DA9E52CF29FAFC5A0023619B /* PocketPsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52CE29FAFC5A0023619B /* PocketPsychologistTests.swift */; };
 		DA9E52D929FAFC5A0023619B /* PocketPsychologistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52D829FAFC5A0023619B /* PocketPsychologistUITests.swift */; };
 		DA9E52DB29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E52DA29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift */; };
+		DAAAC87B2A03039200F5C5E4 /* StartOnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAC87A2A03039200F5C5E4 /* StartOnboardViewController.swift */; };
+		DAAAC87D2A03039E00F5C5E4 /* MidOnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAC87C2A03039E00F5C5E4 /* MidOnboardViewController.swift */; };
 		DAB2FD7D29FDA4D400265277 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2FD7C29FDA4D400265277 /* Coordinator.swift */; };
 		DAEAF73B29FB0B6800DCD405 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
@@ -71,6 +76,9 @@
 		DA0DD0572A01C0AB008F68DF /* CategoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCoordinator.swift; sourceTree = "<group>"; };
 		DA0DD05A2A01C109008F68DF /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		DA0DD05C2A01DA84008F68DF /* MenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		DA0DD05F2A01DD9D008F68DF /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		DA0DD0602A01DD9D008F68DF /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		DA0DD0642A01DE7D008F68DF /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		DA2A927329FBFE7000B76057 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DA68211029FDC11E00C13DB7 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		DA68211129FDC11E00C13DB7 /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
@@ -101,6 +109,8 @@
 		DA9E52D429FAFC5A0023619B /* PocketPsychologistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketPsychologistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9E52D829FAFC5A0023619B /* PocketPsychologistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPsychologistUITests.swift; sourceTree = "<group>"; };
 		DA9E52DA29FAFC5A0023619B /* PocketPsychologistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPsychologistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAAAC87A2A03039200F5C5E4 /* StartOnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartOnboardViewController.swift; sourceTree = "<group>"; };
+		DAAAC87C2A03039E00F5C5E4 /* MidOnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidOnboardViewController.swift; sourceTree = "<group>"; };
 		DAB2FD7C29FDA4D400265277 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		E8DBB0931DB86C66FCF4E5E8 /* Pods-PocketPsychologistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPsychologistTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketPsychologistTests/Pods-PocketPsychologistTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +176,23 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		DA0DD05E2A01DD7F008F68DF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DA0DD05F2A01DD9D008F68DF /* MenuTableViewCell.swift */,
+				DA0DD0602A01DD9D008F68DF /* MenuTableViewCell.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		DA0DD0632A01DE6E008F68DF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DA0DD0642A01DE7D008F68DF /* MenuViewModel.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		DA2A927229FBFE5B00B76057 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				DA8982D929FC754E00DA2CF7 /* Main */,
+				DA0DD05E2A01DD7F008F68DF /* Menu */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -334,6 +362,7 @@
 		DA9E52EA29FB09DE0023619B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DA0DD0632A01DE6E008F68DF /* Menu */,
 				DA2A927229FBFE5B00B76057 /* Main */,
 				DA0DD0592A01C0E8008F68DF /* Category */,
 			);
@@ -372,6 +401,8 @@
 			isa = PBXGroup;
 			children = (
 				DAEAF73A29FB0B6800DCD405 /* Onboarding.storyboard */,
+				DAAAC87A2A03039200F5C5E4 /* StartOnboardViewController.swift */,
+				DAAAC87C2A03039E00F5C5E4 /* MidOnboardViewController.swift */,
 				DA68211929FDCCBC00C13DB7 /* PremiumViewController.swift */,
 			);
 			path = Onboarding;
@@ -459,7 +490,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA9E52AF29FAFC570023619B /* Build configuration list for PBXProject "PocketPsychologist" */;
+			buildConfigurationList = DA9E52AF29FAFC570023619B /* Build configuration list for PBXProject "LifeStories" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -492,6 +523,7 @@
 				DA9E52BF29FAFC570023619B /* Main.storyboard in Resources */,
 				DAEAF73B29FB0B6800DCD405 /* Onboarding.storyboard in Resources */,
 				DA8982F729FC9AE200DA2CF7 /* MainViewController.xib in Resources */,
+				DA0DD0622A01DD9D008F68DF /* MenuTableViewCell.xib in Resources */,
 				DA8982DD29FC756300DA2CF7 /* MainTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,6 +618,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAAC87B2A03039200F5C5E4 /* StartOnboardViewController.swift in Sources */,
 				DA9E52BC29FAFC570023619B /* MainViewController.swift in Sources */,
 				DA68211729FDC16100C13DB7 /* MenuViewController.swift in Sources */,
 				DA9E52B829FAFC570023619B /* AppDelegate.swift in Sources */,
@@ -600,7 +633,10 @@
 				DA0DD0582A01C0AB008F68DF /* CategoryCoordinator.swift in Sources */,
 				DA8982F529FC934B00DA2CF7 /* NavigationControllerDelegate.swift in Sources */,
 				DA0DD05D2A01DA84008F68DF /* MenuCoordinator.swift in Sources */,
+				DA0DD0612A01DD9D008F68DF /* MenuTableViewCell.swift in Sources */,
+				DA0DD0652A01DE7D008F68DF /* MenuViewModel.swift in Sources */,
 				DA8982E329FC799200DA2CF7 /* CategoriesModel.swift in Sources */,
+				DAAAC87D2A03039E00F5C5E4 /* MidOnboardViewController.swift in Sources */,
 				DA8982DC29FC756300DA2CF7 /* MainTableViewCell.swift in Sources */,
 				DA2A927429FBFE7000B76057 /* MainViewModel.swift in Sources */,
 				DA0DD05B2A01C109008F68DF /* CategoryViewModel.swift in Sources */,
@@ -915,7 +951,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA9E52AF29FAFC570023619B /* Build configuration list for PBXProject "PocketPsychologist" */ = {
+		DA9E52AF29FAFC570023619B /* Build configuration list for PBXProject "LifeStories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA9E52DC29FAFC5A0023619B /* Debug */,

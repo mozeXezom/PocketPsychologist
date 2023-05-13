@@ -51,5 +51,4 @@ class AppCoordinator : Coordinator {
         print("AppCoordinator Deinit")
     }
     
-    
 }

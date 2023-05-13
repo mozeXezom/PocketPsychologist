@@ -11,10 +11,12 @@ struct Cell {
     
     struct CellId {
         static let mainCellId = "mainCell"
+        static let menuCellId = "menuCell"
     }
     
     struct CellName {
         static let mainCellName = "MainTableViewCell"
+        static let menuCellName = "MenuTableViewCell"
     }
     
 }
